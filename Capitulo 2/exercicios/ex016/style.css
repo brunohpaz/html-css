@@ -1,0 +1,9 @@
+*{ /* Configurações globais da CSS*/
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(to bottom/* pode ser usado aqui: to top, to bottom, to right, to left, e um numero mais o deg de degrau, por exemplo 45deg, o degraed ficara em 45graus*/, #9702F7, #AD01F1 1%, #FC00CC , #FE0266, #FE7700, #FFC400);
+    background-attachment: fixed;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

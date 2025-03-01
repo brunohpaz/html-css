@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div:hover{
+    color: brown;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: aliceblue;
+    background-color: brown;
+    width: 175px;
+    border-radius: 5px;
+    text-align: center;
+}
+/* > = child (esta dentro da div [neste exemplo]) {ou no Portugues "Filho"}
+*/
+section > p {
+    display: none ;
+}
+
+section:hover > p {
+    display: block;
+    color: aliceblue;
+    background-color: brown;
+    width: 210px;
+    border-radius: 5px;
+    text-align: justify;
+}

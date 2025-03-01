@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+
+        /*
+           #  = id
+           .  = class
+           :  = pseudo-class
+           :: = pseudo-element
+           >  = chindren (filho)
+        */
+
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.15em;
+        }
+        h1{
+            font-family: "Cormorant Garamond", 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 2.75em;
+        }
+        h2{
+            font-family: "Cormorant Garamond", 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 2.25em;
+        }
+        a{
+            color: dimgray;
+            text-decoration: none;
+            font-weight: lighter;
+        }
+        a:visited{
+            color:darkgreen;
+        }
+        a:hover{
+            color: dimgray;
+            text-decoration: underline;
+        }
+        a:active{
+            color: darkblue;
+        }
+        a::after{
+            content: ' ↵';
+            color: dimgray;
+            font-size: 1em;
+        }
+        a::before{
+            content: '⇒ ';
+            color: dimgray;
+            font-size: 1em;
+        }
+        a.special{
+            color: darkred;
+        }
+        a.special:active{
+            color: red;
+        }
+        .special::after{
+            content: ' ☚';
+            color: darkred;
+            font-size: 1em;
+        }
+        .special::before{
+            content: '☛ ';
+            color: darkred;
+            font-size: 1em;
+        }
+        ul{
+            font-size: 1.25em;
+        }
+        p:hover{
+            color: darkgreen;
+        }
+        h1:hover,h2:hover{
+            color: dimgray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" class="special">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do Curso em Video</a></li>
+    </ul>
+    <h2>ipsum dolor sit amet consectetur</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum architecto labore quia reiciendis modi totam ut consequuntur officia neque numquam quod, dolore illum quae odit recusandae doloremque non libero aliquam!</p>
+</body>
+</html>

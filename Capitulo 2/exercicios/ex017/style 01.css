@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font: normal 1em Arial, Verdana, serif;
+    text-align: left;
+    font-family: 'Niconne', Times, serif;
+    background-image: radial-gradient(#f3ab53, #eea463);
+
+}
+h1 {
+    text-align: center;
+    font-family:'Niconne', Times, serif;
+    font-size: 4em;
+    color: bisque;
+    text-shadow: 1px 1px 3px #731A06;
+}
+h2 {
+    text-align: left;
+    font-family:'Niconne', Times, serif;
+    font-size: 2.75em;
+    color: bisque;
+    text-shadow: 1px 1px 2px #731A06;
+}
+p {
+    text-align: justify;
+    text-indent: 2em;
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+    font-size: 1.25em;
+    font-weight: normal;
+    color: antiquewhite;
+    
+}

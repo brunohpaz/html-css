@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 725px)" srcset="images/image-p.png" type="image/png">
+        <source media="(max-width: 1025px )" srcset="images/image-m.png" type="image/png">
+        <img src="images/image-g.png" alt="imagen flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/28. Blood Upon the Snow.mp3" controls autoplay>Seu Navegardor não possui o suporte ao elemento de áudio</audio>
+    <!-- A tag audio é compativel com os formatos: MP3, WAV, OGG -->
+     <br>
+     <audio preload="metadata" autoplay controls loop> <!--Sempre usar o preload dos arquivos como metadata na qual vai acarregar o nome do arquivo de audio e almas outras coisas deixando o site mais leve  para ser carregado e exibido mais rapido pois se não colocar nada ele vai setar o preload para aouto na qual so vai considerar que o site foi carregado quando ele carregar o audio incerido por completo, isso pode trazer varios maleficios como ranqueamento do google e lentidões no site.-->
+        <source src="midia/Candy Apple Town - National Sweetheart.mp3" type="audio/mpeg">
+        <source src="midia/Candy Apple Town - National Sweetheart.ogg" type="audio/ogg">
+        <source src="midia/Candy Apple Town - National Sweetheart.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Candy Apple Town - National Sweetheart.mp3">clique aqui para baixar o arquivo MP3</a></p>
+     </audio>
+</body>
+</html>

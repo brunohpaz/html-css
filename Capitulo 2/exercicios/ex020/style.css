@@ -1,0 +1,13 @@
+div {
+    display: inline-block;
+    background-color: darkgrey;
+    border: 2px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: aquamarine;
+}
+/* hover = quando o usuario passar o mouse sobre, mudara de cor */

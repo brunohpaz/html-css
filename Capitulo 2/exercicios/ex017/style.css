@@ -1,0 +1,52 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*
+    Medidas Absolutas:
+    cm;(Centimetro), mm;(Milimetro); in,(Polegadas); px,(Pixel); pt,(Ponto); pc,(Paica).
+
+    Mediadas Relativas:
+    em,(Medida Relativa ao tamanho atual da fonte[M maiusculo de uma fonte]);
+    ex,(Relativa a altura x de uma fonte);
+    rem,(Relativa ao ruth [Tipo Relativo ao em]);
+    vw,(View width [largura da view port] {view port -Tamanho da tela de esibição do usuario})(Relativa a porcentagem da largura da view port);
+    vh, (Relativa a altura da view port);
+
+    16px geralmente é = a 1em (na qual já é o tamnho padrão dos navegadores)
+     
+    W3C recomenda a ulização apenas do px, para Medida absolutas e o em, para Medidas  relativas
+    no quesito de fontes.
+    */
+    font-size: 1.25em;
+    /* O tamanho padrão de fontes na maiorias dos browsers são de 16px*/
+}
+
+h1{
+    font-family:'Work Sans'serif;
+    font-weight:bolder;
+    font-size: 3em;
+    font-style: italic;
+    text-decoration: underline;
+    /* Shorhand font 
+    - font-style -> font-weight -> font-size -> font-family
+    */
+    font: italic bolder 3em 'Work Sans', sans-serif;
+    /* 
+    font: italic bolder 3em 'Work Sans', sans-serif;
+    Usar a tag acima é o mesmo de se eu tivese usado as tags abaixo :
+
+    font-family:'Work Sans'serif;
+    font-weight:bolder;
+    font-size: 3em;
+    font-style: italic;
+    */
+    text-align: center;
+}
+h2{
+    font: inherit bold 2em 'work sans', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    font-style: italic;
+    text-align: justify;
+}

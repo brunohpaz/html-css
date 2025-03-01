@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+.zen-dots-regular {
+    font-family: "Zen Dots", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --fonte-padrão: Arial, serif;
+    --fonte-destaque:'idroid', cursive;
+    --fonte-titulo : "Zen Dots";
+
+    --color-00:#063d1e;
+    --color-01:#1a5c37;
+    --color-02:#438042;
+    --color-03:#5EB25C;
+    --color-04:#9ED19C;
+    --color-05:#C9F2C7;
+
+    --color-06:#F2F2F2;
+    --color-07:#E9FAFF;
+    --color-08:#BFBFBF;
+    --color-09:#0F0F0F;
+    --color-10:#D9D9D9;
+    --color-11:#028f00;
+    --color-12:#03A688;
+    
+    --degrade-cabeçalho:linear-gradient(-45deg, #20c065, #158344, #09351c);
+    --degrade-interno:linear-gradient(45deg, #BFBFBF, #D9D9D9);
+    --degrade-externo:linear-gradient(45deg, #6c8f6a, #aedfac);
+    --degrade-title:linear-gradient(to right, #9ED19C ,#D9D9D9);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+body {
+    background-image: var(--degrade-externo);
+    font-family: var(--fonte-padrão);
+
+}
+
+body h1 {
+    font-family: var(--fonte-destaque);
+}
+
+body h2 {
+    font-family: var(--fonte-destaque);
+}
+
+body a {
+    text-decoration: none;
+}
+
+body a:hover {
+    background-color: var(--color-12);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+body p {
+    font-size: 1.2em;
+}
+
+body strong {
+    color: var(--color-01);
+    font-size: large;
+}
+
+header {
+    background-image: var(--degrade-cabeçalho);
+    padding-top: 50px;
+    color: white;
+    min-height: 130px;
+    box-shadow: 5px 5px 15px #00000096;
+}
+
+header h1 {
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 2.5em;
+}
+
+header p {
+    text-align: center;
+    margin: auto;
+    max-width: 575px;
+}
+
+header a {
+    text-align: left;
+    color: white;
+    margin-bottom: 10%;    
+}
+
+header .rodape_links{
+    max-width: 500px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 45px;
+    font-size: large;
+    
+}
+
+main {
+    background-image: var(--degrade-interno);
+    margin:auto;
+    padding: 25px;
+    max-width: 1000px;
+    min-height: 500px;
+    margin-bottom: 1%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 5px 5px #0000004f;
+}
+
+main > h2 {
+    color: var(--color-01);
+    background-image: var(--degrade-title);
+    font-size: 1.6em;
+    margin-bottom: 2%;
+}
+
+main h2.subtitle {
+    color: var(--color-00);
+    background-image: none;
+    font-size: 1.9em;
+    margin-top: -20px;
+   
+}
+
+main p {
+    margin-bottom: 2%;
+}
+
+main img {
+    margin: auto;
+    display: block;  
+}
+
+div.fundo_video {
+    text-align: center;
+    border: 10px solid var(--color-01);
+    margin-bottom: 2%;
+}
+
+div > iframe {
+    width: 100%;
+   
+}
+
+aside {
+    background-color: var(--color-04);
+    border-radius: 10px 10px 10px 10px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 15px 1px 15px;
+}
+
+aside h3 {
+    background-color: var(--color-11);
+    padding: 1%;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 1.5em;
+    margin: 0px -15px;
+    color: var(--color-06);
+}
+
+aside p {
+    margin-top: 1%;
+}
+
+aside ol{
+    padding-left: 25px;  
+}
+
+li::marker {
+    content: "✅";
+}
+
+.agradecimento {
+    padding-top: 15px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer {
+    background-color: var(--color-01);
+    text-align: center;
+    color: var(--color-07);
+    background-image:linear-gradient(deg, #000000, #000000, #000000);
+    max-width: auto;
+    margin: auto;
+    font-size: large;
+    
+}
