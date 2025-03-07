@@ -33,6 +33,6 @@
             <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/Desafios%20Modolo%201/d006/index.html" target="_blank">Tags com abrevições</a></li>
             <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/Desafios%20Modolo%201/d007/index.html" target="_blank">Imagem Flexível</a></li>
             <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/Desafios%20Modolo%201/d008/index.html" target="_blank">Navegação</a></li>
-            <li><a href="Capitulo 1/Desafios Modolo 1/d009/index.html" target="_blank">Vídeos legas para assistir</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/Desafios%20Modolo%201/d009/index.html" target="_blank">Vídeos legas para assistir</a></li>
         </ul>
     </div>
