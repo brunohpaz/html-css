@@ -6,22 +6,21 @@
  <div>
         <h1>Exercicios do Capitulo 01 </h1>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex001/"target="_blank">hello world</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex002/index.html" target="_blank">Parágrafos e quebras de linhas</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex003/index.html" target="_blank">Testando carga de imagens</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex004/index.html" target="_blank">4</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex005/index.html" target="_blank">5</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex007/index.html" target="_blank">7</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex008/index.html" target="_blank">8</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex008b/index.html" target="_blank">8b</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex009/index.html" target="_blank">9</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex010/index.html" target="_blank">10</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex011/index.html" target="_blank">11</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex012/index.html" target="_blank">12</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex013/index.html" target="_blank">13</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex014/index.html" target="_blank">14</a></li>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex015/index.html" target="_blank">15</a></li>
         </ul>
         <h1>Desafios do Capitulo 01 </h1>
         <ul>
