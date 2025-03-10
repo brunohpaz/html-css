@@ -6,6 +6,7 @@
  <div>
         <h1>Exercicios do Capitulo 01 </h1>
         <ul>
+            <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex001/" target="_blank">Olá Mundo (hello world)</a></li>
             <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex002/index.html" target="_blank">Parágrafos e quebras de linhas</a></li>
             <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex003/index.html" target="_blank">Testando carga de imagens</a></li>
             <li><a href="https://brunohpaz.github.io/html-css/Capitulo%201/exercicios/ex004/index.html" target="_blank">Favicon</a></li>
