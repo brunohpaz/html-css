@@ -6,17 +6,30 @@
     <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            height: 100vh;            
+            /*
             background-color: lightslategray;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center;
             background-repeat: repeat-y;
             background-size: cover;
             background-attachment: fixed;
+            */
+
+            /*
+
+            shorthand para o código acima:
+            background > color >image > position > repeat > {size} > attachment
+            { *background-size* apesar de ser a regra na documentação do W3C. Na pratica o background-size não funciona no shorthand }
+            
+            */
+            
+            background: lightslategray url('imagens/wallpaper002.jpg') center no-repeat /*cover*/ fixed;
+            background-size: cover;
         }
         main{
-            background-color: wheat;
-            width: 400px;
+            background-color: whitesmoke;
+            max-width: 500px;
             padding: 10px;
             margin: auto;
             border-radius: 10px;
