@@ -21,11 +21,17 @@
             shorthand para o código acima:
             background > color >image > position > repeat > {size} > attachment
             { *background-size* apesar de ser a regra na documentação do W3C. Na pratica o background-size não funciona no shorthand }
+
+            Da pra aplicar o size no shorthand sim. Tem que fazer desse jeito:  color > image > position > / > size > repeat > attachment. 
+
+            Exemplo:
+            background: #000 url('imagem.jpg') center top/cover no-repeat fixed;
             
             */
             
-            background: lightslategray url('imagens/wallpaper002.jpg') center no-repeat /*cover*/ fixed;
-            background-size: cover;
+            background: lightslategray url('imagens/wallpaper002.jpg') center/cover no-repeat fixed;
+
+            /*background-size: cover;*/
         }
         main{
             background-color: whitesmoke;
