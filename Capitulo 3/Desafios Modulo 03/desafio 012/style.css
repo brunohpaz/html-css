@@ -1,1 +1,25 @@
 @charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+head{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding: 50px;
+    font-variant: small-caps;
+    /*
+    text-transform: uppercase;
+    *Deixa todas as letras maiúsculas
+    */
+}
