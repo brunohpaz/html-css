@@ -9,17 +9,62 @@ html, body{
     background-color: darkgray;
 }
 
-head{
+header{
     background-color: black;
     color: white;
     text-align: center;
 }
 
 header h1{
-    padding: 50px;
+    padding-top: 50px;
     font-variant: small-caps;
     /*
     text-transform: uppercase;
     *Deixa todas as letras maiúsculas
     */
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover, footer a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    line-height: 2em;
+    /* 
+      line-height (faz o espaçamento entre letras)
+    */
+    padding-left: 25px;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: crimson;
+    color: white;
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: darkgrey;
+} 
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
 }
