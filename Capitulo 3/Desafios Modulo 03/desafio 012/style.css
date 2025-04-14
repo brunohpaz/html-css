@@ -97,6 +97,7 @@ section > p{
 section.imagem > p{
     display: inline-block;
     background-color: darkgrey;
+    padding: 1vw;
 } 
 
 footer{
