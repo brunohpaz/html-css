@@ -49,7 +49,7 @@ header h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font002b);
-    font-size: 5vw;
+    font-size: 7vw;
     /*
     text-transform: uppercase;
     *Deixa todas as letras maiúsculas
@@ -78,7 +78,7 @@ section{
       line-height (faz o espaçamento entre letras)
     */
     padding-left: 25px;
-    font-size: 2vh;
+    font-size: 2.5vh;
 }
 section.normal{
     background-color: white;
@@ -95,7 +95,7 @@ section > p{
 }
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
     background-color: darkgrey;
 } 
 
