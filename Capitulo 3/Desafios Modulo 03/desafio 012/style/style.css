@@ -78,7 +78,7 @@ section{
       line-height (faz o espaçamento entre letras)
     */
     padding-left: 25px;
-    font-size: 2.5vh;
+    font-size: 3vw;
 }
 section.normal{
     background-color: white;
@@ -88,6 +88,9 @@ section.normal{
 section.imagem{
     background-color: crimson;
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section#img01{
@@ -98,6 +101,7 @@ section#img01{
 section#img02{
     background-image: url('../imagens/background002.jpg');
     background-position: center;
+    text-shadow: 1px 1px 0px black;
 }
 
 section > p{
@@ -107,7 +111,7 @@ section > p{
 
 section.imagem > p{
     display: inline-block;
-    background-color: rgba(169, 169, 169, 0.5);
+    background-color: rgba(0, 0, 0, 0.404);
     padding: 1vw;
 } 
 
