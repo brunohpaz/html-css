@@ -71,13 +71,13 @@ a:hover, footer a:hover{
 }
 
 section{
-    padding-top: 7vh;
-    padding-bottom: 7vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
     /* 
       line-height (faz o espaçamento entre letras)
     */
-    padding-left: 25px;
+    padding-left: 30px;
     font-size:3.25vw;
     font-weight: bold;
 }
