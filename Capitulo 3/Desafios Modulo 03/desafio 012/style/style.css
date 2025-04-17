@@ -78,7 +78,7 @@ section{
       line-height (faz o espaçamento entre letras)
     */
     padding-left: 25px;
-    font-size: 3vw;
+    font-size:3.25vw;
     font-weight: bold;
 }
 section.normal{
@@ -112,7 +112,8 @@ section > p{
 
 section.imagem > p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(0, 0, 0, 0.400);
+    border-radius: 1%;
     padding: 1vw;
 } 
 
@@ -121,5 +122,5 @@ footer{
     color: white;
     text-align: center;
     padding: 1px;
-    font-size: 1.25vh;
+    font-size: 1.5vw;
 }
