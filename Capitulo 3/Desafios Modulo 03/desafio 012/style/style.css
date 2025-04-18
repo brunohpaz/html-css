@@ -87,12 +87,12 @@ section.normal{
 }
 
 section.imagem{
-    background-color: crimson;
+    background-color: rgb(50, 50, 50);
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 0px 0px 10px black;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.500);
 }
 
 section#img01{
