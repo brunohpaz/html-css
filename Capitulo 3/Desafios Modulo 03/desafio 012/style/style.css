@@ -115,7 +115,7 @@ section.imagem > p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.400);
     border-radius: 1%;
-    padding: 1vw;
+    padding: 5px;
 } 
 
 footer{
