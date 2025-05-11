@@ -6,8 +6,8 @@
     <title>Desafio parte 02</title>
     <style>
         *{
-            margin: auto;
-            padding: auto;
+            margin: 0;
+            padding: 0;
             margin: auto;
             text-align: center;
         }
@@ -16,15 +16,27 @@
         }
         table{
             border-collapse: collapse;
-            width: 100%;
+            width: 90%;
         }
         th, td{
             border: 1px solid black;
             padding: 8px;
             text-align: left;
+            text-align: center;
         }
-        th{
-            background-color: #f2f2f2;
+        
+        th, .mediafinal{
+            background-color: gray;
+            color: white;
+            font-weight: bolder;
+            
+        }
+        .materias{
+            text-align: left;
+        }
+        .eh{
+            background-color: white;
+            color: black;
         }
     </style>
 </head>
@@ -47,33 +59,56 @@
 
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
-                <td>Matemática</td>
+                <th rowspan="4" class="eh">Exatas</th>
+                <td class="materias">Matemática</td>
                 <td>6.5</td>
                 <td>7.5</td>
                 <td>7</td>
 
                 <tr>
-                    <td>Física</td>
+                    <td class="materias">Física</td>
                     <td>7</td>
                     <td>8</td>
                     <td>7.5</td>
                 </tr>
 
                 <tr>
-                    <td>Química</td>
+                    <td class="materias">Química</td>
                     <td>6</td>
                     <td>7</td>
                     <td>6.5</td>
                 </tr>
 
                 <tr>
-                    <td>Biologia</td>
+                    <td class="materias">Biologia</td>
                     <td>8.5</td>
                     <td>9</td>
                     <td>8.25</td>
                 </tr>
 
+            </tr>
+
+            <tr>
+                <th colspan="4" style="text-align: left;">Média de Exatas</th>
+                <td class="mediafinal">7.5</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" class="eh">Humanas</th>
+                <td class="materias">História</td>
+                <td>7</td>
+                <td>8.5</td>
+                <td>7.75</td>
+            </tr>
+            <tr>
+                <td class="materias">Geografia</td>
+                <td>9</td>
+                <td>9.5</td>
+                <td>9.25</td>
+            </tr>
+            <tr>
+                <th colspan="4" style="text-align: left;">Média de Humanas </th>
+                <td class="mediafinal">8.5</td>
             </tr>
         </tbody>
 
