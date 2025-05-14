@@ -38,6 +38,16 @@
             background-color: darkslategrey;
             color: white;
         }
+        col.coluna01{
+            background-color: darkslategrey;
+            color: white;
+            text-align: left;
+        }
+        col.coluna02{
+            background-color: darkseagreen;
+            color: white;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -49,6 +59,13 @@
 
         <caption>Cadastro</caption>
 
+        <colgroup>
+            <col class="coluna01">
+            <col class="coluna02"span="2">
+            <!--<col class="coluna03">-->
+            <col class="coluna04">
+        </colgroup>
+
         <thead>
             <tr class="cabecalho">
                 <th scope="col">Nome</th>
@@ -59,7 +76,7 @@
         </thead>
         <tbody>
             <tr class="destacar">
-                <td>Ana Maria</td>
+                <td style="background-color: darkslategray;">Ana Maria</td>
                 <td>F</td>
                 <td>30</td>
                 <td>Jornalista</td>
@@ -73,7 +90,7 @@
             </tr>
 
             <tr class="destacar">
-                <td>Gustavo</td>
+                <td style="background-color: darkslategrey;">Gustavo</td>
                 <td>M</td>
                 <td>42</td>
                 <td>Professor</td>
