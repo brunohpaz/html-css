@@ -29,11 +29,18 @@
             border: 1px solid black;
             padding: 10px;      
         }
+        td.nome-destacado{
+            color: white;
+            font-weight: bold;
+            background-color: darkslategrey;
+        }
+        /*
         .destacar{
             background-color: gray;
             font-weight: bold;
-            color: white;
-        }
+            color: white; 
+        } 
+        */
         .cabecalho{
             background-color: darkslategrey;
             color: white;
@@ -41,13 +48,25 @@
         col.coluna01{
             background-color: darkslategrey;
             color: white;
-            text-align: left;
         }
         col.coluna02{
             background-color: darkseagreen;
-            color: white;
-            text-align: center;
         }
+        col.coluna04{
+            background-color: darkseagreen;
+        }
+        /*
+        A tag <col> (ou <colgroup>) serve para aplicar estilo estrutural às colunas de uma tabela, mas só aceita estilos que afetam o contêiner, como:
+        background-color
+        width
+        visibility
+        border
+        
+        Mas não aceita estilos como:
+        color (cor do texto)
+        font-weight
+        text-align (funciona parcialmente e depende do navegador)
+        */
     </style>
 </head>
 <body>
@@ -76,42 +95,42 @@
         </thead>
         <tbody>
             <tr class="destacar">
-                <td style="background-color: darkslategray;">Ana Maria</td>
+                <td class="nome-destacado"  style="background-color: darkslategray;">Ana Maria</td>
                 <td>F</td>
                 <td>30</td>
                 <td>Jornalista</td>
             </tr>
 
             <tr>
-                <td>Cláudio</td>
+                <td class="nome-destacado" >Cláudio</td>
                 <td>M</td>
                 <td>28</td>
                 <td>Progamador</td>
             </tr>
 
-            <tr class="destacar">
-                <td style="background-color: darkslategrey;">Gustavo</td>
+            <tr  class="destacar">
+                <td class="nome-destacado" style="background-color: darkslategrey;">Gustavo</td>
                 <td>M</td>
                 <td>42</td>
                 <td>Professor</td>
             </tr>
 
             <tr>
-                <td>Hélio</td>
+                <td class="nome-destacado" >Hélio</td>
                 <td>M</td>
                 <td>18</td>
                 <td>Vendedor</td>
             </tr>
 
             <tr>
-                <td>Maria</td>
+                <td class="nome-destacado" >Maria</td>
                 <td>F</td>
                 <td>39</td>
                 <td>Médica</td>
             </tr>
 
             <tr>
-                <td>Otávio</td>
+                <td class="nome-destacado" >Otávio</td>
                 <td>M</td>
                 <td>22</td>
                 <td>Nutricionista</td>
