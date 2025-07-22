@@ -4,16 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&display=swap');
+
+
+        .bitcount-prop-double-<uniquifier> {
+        font-family: "Bitcount Prop Double", system-ui;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+            "slnt" 0,
+            "CRSV" 0.5,
+            "ELSH" 0,
+            "ELXP" 0;
+        }
+        *{
+            text-align: center;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image:linear-gradient(to right, chocolate, brown, darkred);
+            color: white;
+        }
+        body h1 { font-family: "Bitcount Prop Double", Arial, Helvetica, sans-serif;
+        }
+        body h2 {
+            font-family: "Bitcount Prop Double", Arial, Helvetica, sans-serif;
+            font-size: 1.25em;
+
+        }
+        body p {
+            margin: auto;
+            text-align: center;
+            font-family:monospace;
+            font-size: 1.1em;
+            width: 80%;
+        }
+        body img {
+            width: 80%;
+            height: auto;
+            max-width: 700px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        fieldset{
+            border: 2px solid black;
+            padding: 10px;
+            margin: 20px auto;
+            width: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    </style>
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
     <div>
-        <form action="cadastro.php" method="get">
-            <div>
-                <label for="i-email">email</label>
-                <input type="email" name="" id="">
-            </div>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <fieldset>
+                <legend>
+                    <p>Dados Pessuais</p>
+                </legend>
+                <div>
+                    <label for="i-nome">Nome:</label>
+                    <input type="name" name="nome" id="i-nome" autocomplete="name" minlength="5" maxlength="30" placeholder="Digite seu nome completo" size="20" required
+                    >
+                </div>
+                <div>
+                    <label for="i-email">E-mail:</label>
+                    <input type="email" name="" id="i-email" autocomplete="email" required placeholder="Exemplo@exemplo.com" size="20" maxlength="50">
+                
+                </div>
+                <!-- Estudar mais  sobre RegEX
+                     HTML5 patterns
+                -->
+                <div>
+                    <label for="itel">Telefone:</label>
+                    <input type="tel" name="telefone" id="itel" autocomplete="tel" required pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="(XX)-XXXXX-XXXX">
+                
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset"
+                    value="Limpar">
+                </div>
+            </fieldset>
         </form>
+    </div>
+    <div>
+        <h2>
+            Lorem ipsum dolor sit amet consectetur. 
+            <br>
+            Quisquam, voluptatum.
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatibus veritatis ratione quos amet quibusdam reprehenderit ullam placeat ea incidunt accusantium voluptates numquam sunt, facere atque! Voluptate, repellat possimus. Ipsam?
+            Quae totam sit, labore ratione unde modi velit autem vitae voluptas molestiae incidunt placeat assumenda vel culpa nihil ex, obcaecati eius esse voluptatibus veritatis quod blanditiis asperiores. Commodi, beatae sapiente?
+            Incidunt, adipisci nulla quo nemo architecto earum molestias optio impedit, quidem aspernatur nisi! Vero optio quas laboriosam quia enim fugiat sunt quo tenetur placeat, culpa soluta velit suscipit corrupti doloribus!
+            Quibusdam dolore molestias, aliquam a placeat incidunt aperiam eveniet id error porro natus, doloremque sequi quo cumque magnam tenetur dolorem. Ex sapiente praesentium maxime mollitia! Voluptatum sapiente repudiandae modi dicta?
+            Eius magnam autem, dolore repudiandae consequatur consequuntur quaerat eos totam sequi voluptates corporis molestias, cum tempora provident tenetur eaque architecto alias quia quibusdam. Ex saepe distinctio assumenda repellendus obcaecati soluta?
+        </p>
+    </div>
+    <br>
+    <div>
+        <img src="https://www.petz.com.br/blog/wp-content/uploads/2021/03/como-tirar-foto-de-gato-2.jpg" alt="">
+    </div>
+    <div>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, corporis. Alias repellendus aliquid obcaecati odit possimus. Velit fugiat, dolorum minima maxime, quidem veniam laborum optio molestiae ipsam quas perspiciatis! Blanditiis?
+        Quas quia molestias autem maxime nulla dolorum adipisci, ipsa ex totam enim provident magni cum minima deserunt! Ipsum neque quae et reiciendis ab, sapiente saepe maxime velit dolores earum consequatur?</p>
     </div>
 </body>
 </html>
