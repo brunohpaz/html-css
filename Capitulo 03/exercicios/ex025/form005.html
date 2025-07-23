@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, yellow, orange, grey);
+            color: white;
+        }
+        fieldset{
+            width: 75%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <div>
+        <form action="cadastro.php">
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="masculino" value="masculino" id="i-masculino" >  <label for="i-masculino">Masculiono</label>
+                <input type="radio" name="feminino" value="feminino" id="i-feminino"> <label for="i-feminino">Feminino</label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Esportes favoritos
+                </legend>
+                <input type="checkbox" name="futebol" value="futebol" id="i-futebol"> <label for="i-futebol">Futebol</label> <br>
+                <input type="checkbox" name="basquete" value="basquete" id="i-basquete"> <label for="i-basquete">Basquete</label> <br>
+                <input type="checkbox" name="Volei" value="volei" id="i-volei"> <label for="i-volei">Vôleibol</label> <br>
+                <input type="checkbox" name="tenis" value="tenis" id="i-tenis"> <label for="i-tenis">Tênis</label> <br>
+                <input type="checkbox" name="natacao" value="natacao" id="i-natacao"> <label for="i-natacao">Natação</label>
+            </fieldset>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
