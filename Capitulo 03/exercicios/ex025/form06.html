@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,11 @@
         <form action="cadastro.php">
             <div>
                 <label for="i-cor">Cor:</label>
-                <input type="color" name="" id="">
+                <input type="color" name="cor" id="i-cor" value="#7da089">
+            </div>
+            <div>
+                <label for="i-nivel">Nível de Satisfação</label>
+                <input type="range" name="nivel" id="i-nivel" value="1" min="0" max="10" step="1">
             </div>
             <div>
                 <input type="submit" value="Enviar" >
