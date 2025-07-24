@@ -15,14 +15,21 @@
 <body>
     <h1>Formulário</h1>
     <div>
-        <form action="cadastro.php">
+        <form action="cadastro.php" enctype="multipart/form-data" method="post">
             <div>
                 <label for="i-cor">Cor:</label>
                 <input type="color" name="cor" id="i-cor" value="#7da089">
             </div>
             <div>
-                <label for="i-nivel">Nível de Satisfação</label>
+                <label for="i-nivel">Nível de Satisfação:</label>
                 <input type="range" name="nivel" id="i-nivel" value="1" min="0" max="10" step="1">
+            </div>
+            <div>
+                <label for="i-foto">Photo:</label>
+                <input type="file" name="foto" id="i-foto" value="" alt="Foto de exemplo">
+                <!--
+                Sempre que usar o input type="file", é necessário que o form tenha o method POST e o atributo enctype="multipart/form-data"
+                -->
             </div>
             <div>
                 <input type="submit" value="Enviar" >
