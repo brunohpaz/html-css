@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de Formulário</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to right, blue, navy);
+            margin: 0;
+            padding: 20px;
+            color: white;
+            text-align: center;
+
+        }
+    </style>
 </head>
 <body>
-    <h1>T</h1>
+    <h1>Exemplo de Formulário</h1>
     <div>
-        <form action=""></form>
+        <form action="">
+            <div>
+                <label for="i-estado">Estado:</label>
+                <select name="" id="" style="text-align: center;">
+                    <option value="" selected>- Escolha um Estado -</option>
+                    <optgroup label="Região Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                    </optgrop>
+
+                    <optgroup label="Região Sudeste">
+                        <option value="MG">Minas Gerais
+                        </option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP" >São Paulo</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <input type="submit" name="" id="" value="Enviar">
+                <input type="reset" name="" id="" value="Limpar">
+            </div>
+        </form>
     </div>
 </body>
 </html>
