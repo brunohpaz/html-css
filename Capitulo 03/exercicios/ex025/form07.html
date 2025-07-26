@@ -5,14 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de Formulário</title>
     <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&display=swap');
+        
+        .bitter{
+        font-family: "Bitter", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        }
+
+        .merienda{
+        font-family: "Merienda", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        }
+
         body{
             font-family: Arial, sans-serif;
-            background-image: linear-gradient(to right, blue, navy);
+            background-image: linear-gradient(to right, brown, black);
             margin: 0;
             padding: 20px;
             color: white;
             text-align: center;
 
+        }
+        body h1{
+            font-family: 'Merienda', cursive;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: bisque;
+        }
+
+        body div{
+            font-family: 'bitter', serif;
+            color: beige;
         }
     </style>
 </head>
@@ -41,17 +69,16 @@
 
             <div>
                 <label for="i-prof">Profissão</label>
-                <input type="text" name="prof" id="i-prof" placeholder="Digite sua profissão" style="text-align: center;">
-                <datalist>
+                <input type="text" name="prof" id="i-prof" placeholder="Digite sua profissão" style="text-align: center;" list="prof-list">
+                <datalist id="prof-list">
                     <option value="ADM">Adiministrador</option>
                     <option value="CONT">Contabilista</option>
                     <option value="DEV">Desenvolvedor</option>
                     <option value="PROF">Professor</option>
-                    <option value="Programador">
-                    <option value="Designer">
-                    <option value="Engenheiro">
-                    <option value="Professor">
-                    <option value="Médico">
+                    <option value="PRO">Programador</option>
+                    <option value="DES">Designer</option>
+                    <option value="ENG">Engenheiro</option>
+                    <option value="MED">Médico</option>
                 </datalist>
             </div>
 
