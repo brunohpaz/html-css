@@ -20,6 +20,10 @@ menu{
     display: none;
 }
 
+article{
+    width: 100%;
+}
+
 article::after{
     font-size: 0.5em;
     content: 'Esse artigo foi impresso atavés do site: https://github.com/brunohpaz';

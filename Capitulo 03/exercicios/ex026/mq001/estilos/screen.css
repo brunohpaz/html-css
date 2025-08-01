@@ -13,3 +13,37 @@ html{
     font-size: 1em;
     text-align: center;
 }
+header{
+    background-image: linear-gradient(to right, grey, burlywood);
+}
+
+main p{
+    text-align: justify;
+    margin: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+menu ul {
+    list-style: none;
+    background-image: linear-gradient(to right, grey, wheat);
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+body {
+    background-image: linear-gradient(to right, grey, burlywood);
+}
+
+article img {
+    width: 75%;
+    max-width: 840px;
+    min-width: 420px;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 100% 50% 100% 50%;
+}
