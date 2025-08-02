@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Configuração geral */
+*{
+    margin: auto;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right, black, brown);
+    color: white;
+    width: 90%;
+}
