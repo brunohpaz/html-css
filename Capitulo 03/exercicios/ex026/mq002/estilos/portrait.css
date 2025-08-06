@@ -3,5 +3,11 @@
 /* Estilos para dispositivos no modo retrato */
 
 body {
-   background-color: cadetblue;
+    background-image: url(../imagens/spongebob-fish-toilet-screaming-comedy-wallpaper.jpg);
+    background-color: #7BD3DD;
+    background-position: center bottom;
+}
+img {
+    width: 90%;
+    height: auto;
 }

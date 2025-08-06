@@ -3,5 +3,7 @@
 /* Estilos para dispositivos no modo paisagem*/
 
 body {
-    background-color: crimson;
+    background-image: url(../imagens/spongebob-fish-thumbs-up-meme-desktop-wallpaper-4k.jpg);
+    background-color: #299BDA;
+    background-position: left bottom;
 }
