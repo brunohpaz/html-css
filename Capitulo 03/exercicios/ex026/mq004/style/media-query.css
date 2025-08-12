@@ -1,8 +1,35 @@
 @charset "UTF-8";
 /*
-*Todas as demais medias
+*Todas as demais médias
+*/
+
+/*
+* Typical Device Breakpoints
+
+* De acordo com o curso do Prof Guanabara:
+
+    small screens : até 600px
+    Phone: de 600px até 768px
+    Tablet: de 768px até 992px  
+    Desktop: de 992px até 1200px
+    Big screens : acima de 1200px 
+
+* Nos dias de hoje (12/08/25)
+
+Mobile Phones :	480px 
+Covers most modern smartphones, ensuring readability and usability.
+
+Tablets	: 768px	
+Ideal for tablets in portrait mode, accommodating common tablet resolutions.
+
+Small Desktops : 1024px 
+Suitable for small desktops and larger tablets, ensuring a smooth layout transition.
+
+Large Desktops : 1366px 
+Targets larger desktop monitors, providing an optimal experience for users on bigger screens.
+
 */
 
 @media screen {
-    
+
 }
