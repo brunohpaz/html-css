@@ -30,7 +30,40 @@ Targets larger desktop monitors, providing an optimal experience for users on bi
 
 */
 
+*{
+    text-align: center;
+    margin: auto;
+}
+
+                    /* print */
 @media print {
+    body{
+        background-color: #CF9D61;
+        /* 
+        
+        Desnecesario pois na impressao nao funciona o backgound image
+
+        background-image: url(../imagens/background/printer-resize.jpg); 
+        
+        */
+        
+    }
+
+    main{
+        border: solid 1px #CF9D61;
+    }
+
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: #A58A68;
+    }
+
+    img#phone { display:none;}
+    img#tablet { display:none;}
+    img#print { display:block;}
+    img#pc { display:none;}
+    img#tv { display:none;}
 
 }
 
@@ -48,6 +81,11 @@ Targets larger desktop monitors, providing an optimal experience for users on bi
 @media screen and (min-width: 768px) and (max-width:1024px) {
     body{
         background: url(../imagens/background/tablet-resize.jpg);
+        background-size: cover;
+    }
+
+    main{
+        background-color: #7a6f626e;
     }
 
     img#phone { display: none;}
@@ -62,13 +100,18 @@ Targets larger desktop monitors, providing an optimal experience for users on bi
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
     body{
         background: url(../imagens/background/monitor-resize.jpg);
+        background-size: cover;
+    }
+
+    main{
+        background-color: #504a43b2;
     }
 
     img#phone { display: none;}
     img#tablet { display: none;}
     img#print { display:none;}
     img#pc { display:block;}
-    img#tv { display:none;
+    img#tv { display:none;}
 
 }
 
@@ -76,12 +119,18 @@ Targets larger desktop monitors, providing an optimal experience for users on bi
 @media screen and (min-width: 1366px) {
     body{
         background: url(../imagens/background/tv-resize.jpg);
+        background-size: cover;
+    }
+
+    main{
+        width: 80%;
+        background-color: #332b22bd;
     }
 
     img#phone { display: none;}
     img#tablet { display: none;}
     img#print { display:none;}
     img#pc { display:none;}
-    img#tv { display:block;
+    img#tv { display:block;}
 
 }
