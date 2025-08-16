@@ -51,12 +51,19 @@ Targets larger desktop monitors, providing an optimal experience for users on bi
 
     main{
         border: solid 1px #CF9D61;
+        width: 90%;
     }
 
     main h1 {
         font-family: 'Courier New', Courier, monospace;
         text-shadow: none;
         color: #A58A68;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feira através do site www.cursoemvideo.com';
+        text-decoration: underline;
+        font-size: 0.5em;
     }
 
     img#phone { display:none;}
