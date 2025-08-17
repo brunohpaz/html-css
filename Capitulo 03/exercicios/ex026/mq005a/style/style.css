@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+            /* Desktop */
+body{
+    background-image: linear-gradient( to right ,#413B2B, #33312A );
+    color: gra;
+}
+
+main{
+    margin: auto;
+    text-align: center;
+    width: 75vw;
+    background-color: #967D32;
+    border-radius: 10px;
+    border: 3px solid #6B5E36;
+}
+
+p img{
+    max-width: 20vw;
+    border: 5px solid #EBB101;
+    border-radius: 25px;
+}
