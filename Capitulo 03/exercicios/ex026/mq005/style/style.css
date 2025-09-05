@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+body main{
+    background-color: #6b6d5d;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+article > h2{
+    padding-bottom: 10px;
+}
+
+article > p{
+    margin-bottom: 20px;
+    text-indent: 1.5em;
+}
+
 body{
     background-image: linear-gradient(to right, #71753B, #494B32, #32332B);
     color: whitesmoke;
@@ -37,16 +54,22 @@ menu ul{
 }
 
 menu > ul > li > a{
-    display: inline-block;
+    display:block;
     text-decoration: none;
     color: whitesmoke;
     padding: 7px;
     text-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.2em;
-    
-
+    border-top: 2px solid darkgray;
 }
 
-body header{
+
+menu > ul > li > a:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+
+header{
     background-color: #71753b27;
     margin-bottom: 20px;
     border: solid rgba(0, 0, 0, 0.404) 3px;
