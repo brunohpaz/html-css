@@ -54,13 +54,13 @@ header h1{
 }
 
 menu{
-    display: block;
+    display: none;
     background-color: rgba(85, 107, 47, 0.589);
     
 }
 
 menu ul{
-    display: none;
+    display: block;
     text-align: center;
     text-decoration: none;
     font-family: monospace;
