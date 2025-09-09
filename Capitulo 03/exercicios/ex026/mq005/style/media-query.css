@@ -28,4 +28,30 @@
         display: inline-block;
         width: 15%;
     }
+
+    main {
+        max-width: 80vw;
+        display: block;
+        margin: auto;
+    }
+
+    body > header {
+        max-width: 80vw;
+        margin: auto;
+    }
+}
+
+@media (min-width:1366px){
+
+    main {
+        max-width: 60vw;
+        display: block;
+        margin: auto;
+    }
+
+    body > header {
+        max-width: 60vw;
+        margin: auto;
+    }
+    
 }
