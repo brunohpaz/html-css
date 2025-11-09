@@ -5,50 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexible box</title>
     <style>
-        main.conteiner{
+        div.conteiner{
             background-color: crimson;
             display:flex;
+            flex-flow: row nowap;
+            height: auto;
         }
         
         div.item{
             background-color: beige;
             border: 1px solid gray;
             -ms-flex-align: center;
-            flex: auto;
+            flex-basis: 250px;
+            text-align: center;
+
+            flex-shrink: 1;
+            flex-grow: 1;
+
         }
     </style>
 </head>
 <body>
-    <main class="conteiner">
-        <div class="item">
-            A
-        </div>
+    <div class="conteiner">
 
-        <div class="item">
-            B
-        </div>
+        <div class="item">A Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus et saepe ea, itaque illo natus odio laudantium repellendus. Sequi deserunt sit quos est architecto atque exercitationem minus neque vel quis.</div>
+        <div class="item">B Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat harum dignissimos atque nisi? Doloremque ducimus temporibus commodi ex voluptate consectetur nesciunt atque, et placeat voluptates distinctio quaerat id laborum harum?
+        Deserunt incidunt delectus hic blanditiis voluptas dolore officiis dolores excepturi. Commodi perspiciatis doloremque facilis accusamus dolore necessitatibus sit possimus in aliquam, aliquid dignissimos repudiandae eos! Atque recusandae odit quod! Officia.</div>
+        <div class="item">C Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem incidunt, magnam nostrum at vel odit porro quaerat officiis minima ea, delectus molestiae aperiam nisi in tempore quas commodi ducimus sed?
+        Dolores officia error, amet repellendus iste est repudiandae fugiat iusto pariatur assumenda aliquid nulla deleniti, labore eveniet nisi inventore. Ad quas delectus nesciunt! Veritatis, ipsa accusamus. Pariatur aliquam possimus accusantium.
+        Voluptatibus quod tenetur minima officiis? Ea aut ex vero incidunt, culpa ad ullam unde assumenda dolore voluptatum ut adipisci error repellendus reiciendis quisquam id laborum sunt sapiente cumque commodi consequatur?</div>
+        <div class="item">D Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit vel, eligendi dolorem nulla a, alias suscipit cum maiores rem earum impedit consectetur quidem quod harum molestias assumenda aliquid iste.
+        Nostrum repellat a tenetur nesciunt, ea mollitia ad quisquam commodi consequatur nam soluta, hic unde non perspiciatis. Ipsa expedita eaque, error labore dolorum ex adipisci obcaecati nesciunt fugit quos placeat!
+        Nesciunt deleniti iusto maxime molestias modi, consectetur accusamus ipsum, quasi omnis, unde officia tenetur beatae veniam asperiores. Fugit, ipsam! Nisi ab earum reprehenderit perspiciatis? Ab quia nemo ullam. Eligendi, non!
+        Corporis et molestiae ex vero non! Sequi unde reiciendis, deleniti architecto suscipit cumque esse dolorem asperiores iusto, inventore fugit, aspernatur eligendi magnam hic molestiae facere eos voluptates nam rerum error.</div>
 
-        <div class="item">
-            C
-        </div>
-
-        <div class="item">
-            D
-        </div>
-
-        <div class="item">
-            E
-        </div>
-        
-        <div class="item">
-            F
-        </div>
-
-        <div class="item">
-            G
-        </div>
-
-
-    </main>
+    </div>
 </body>
 </html>
