@@ -6,4 +6,19 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: darkgrey;
+    height: 100vh;
+    width: 100vw;
 
+}
+
+header{
+    background-color: tomato;
+}
+
+main{
+    background-color: orange;
+}
