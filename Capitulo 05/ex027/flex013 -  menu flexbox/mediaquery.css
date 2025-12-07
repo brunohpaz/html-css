@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: burlywood;
+}
+
+body main{
+    background-color: lightcoral;
+}
+
+header > nav{
+    flex-flow: column;
+
+}
+
+header{
+    flex-flow: column nowrap;
+}
