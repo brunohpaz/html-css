@@ -1,2 +1,6 @@
 @charset "UTF-8";
 
+body{
+    text-align: center;
+    margin: 0px 5vw 0px 5vh;
+}
