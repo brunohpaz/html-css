@@ -132,8 +132,8 @@
 }
 
 
-*{
-/*  margin: 0px;  */ 
+*{ /*  */ 
+    margin: 0px;  
     padding: 0px;
     box-sizing: border-box;
     
@@ -142,7 +142,8 @@
 body{
     text-align: center;
     margin: 0px 5vw 0px 5vh;
-    background-color: chocolate;
+    background-color: tomato;
+    line-height: 2em;
 }
 
 body h1{
@@ -160,4 +161,19 @@ body p{
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+p, h1, h2{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header, section.normal{
+  padding: 20px;
+}
+
+section.flex-content{
+  padding: 20px;
+  background-color: brown;
+  border-radius: 20px;
 }
