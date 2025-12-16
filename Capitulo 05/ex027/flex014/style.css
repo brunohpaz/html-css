@@ -142,11 +142,13 @@
 body{
     text-align: center;
     margin: 0px 5vw 0px 5vh;
-    background-color: tomato;
+    background-color: maroon;
     line-height: 2em;
+    color: white;
 }
 
 body h1{
+    margin-top: 20px;
     font-family: "Great Vibes", sans-serif;
     font-size: 4em;
 }
@@ -161,6 +163,7 @@ body p{
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 20px;
+  
 }
 
 p, h1, h2{
@@ -176,4 +179,24 @@ section.flex-content{
   padding: 20px;
   background-color: brown;
   border-radius: 20px;
+
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+section > article{
+  border: 5px dashed;
+}
+
+article.text-media{
+  display: flex;    
+}
+
+article.media-text{
+  display: flex;
+}
+
+div.media{
+  
 }
