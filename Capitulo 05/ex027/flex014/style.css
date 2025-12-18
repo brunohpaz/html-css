@@ -163,13 +163,17 @@ body p{
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 20px;
+    line-height: normal;
   
 }
 
 p, h1, h2{
   margin-bottom: 20px;
   text-align: center;
+  line-height: 1em;
 }
+
+
 
 header, section.normal{
   padding: 20px;
@@ -188,18 +192,19 @@ section.flex-content{
 article.text-media{
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;    
 }
 
 article.media-text{
   display: flex;
   flex-flow: row wrap-reverse;
+  justify-content: space-between;
 }
 
 article > div.media{
   flex: 1 0 500px;
-  border: 5px pink dashed;
+/*border: 5px pink dashed; */
   
 }
 
@@ -213,5 +218,5 @@ article > div.media iframe{
 
 article > div.text{
   flex: 1 1 500px;
-  border: 5px black dashed;
+/*border: 5px black dashed; */
 }
