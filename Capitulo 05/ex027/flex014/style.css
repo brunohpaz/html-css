@@ -187,7 +187,9 @@ section.flex-content{
 
 article.text-media{
   display: flex;
-  flex: row wrap;    
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;    
 }
 
 article.media-text{
@@ -200,6 +202,14 @@ article > div.media{
   border: 5px pink dashed;
   
 }
+
+article > div.media iframe{
+  width:500px;
+  max-width: auto;
+  aspect-ratio:16/9;
+  border-radius: 20px;
+}
+
 
 article > div.text{
   flex: 1 1 500px;
