@@ -1,0 +1,27 @@
+ body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: monospace;
+    font-size: 1.33em;
+
+ }
+
+ a{
+    text-decoration: none;
+    color: greenyellow;
+ }
+
+ .header{
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
+
+ .menu {
+    display: flex;
+    gap: 20px;
+ }
