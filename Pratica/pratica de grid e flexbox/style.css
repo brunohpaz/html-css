@@ -62,10 +62,21 @@ h1{
 .flex{
     display: flex;
     flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    
     
 }
 
 .flex div{
     flex: 1 1 200px;
+    justify-items: center;
+    margin: 10px;
     
+}
+
+/*css Grid*/
+
+.grid1{
+   display: grid;
 }
