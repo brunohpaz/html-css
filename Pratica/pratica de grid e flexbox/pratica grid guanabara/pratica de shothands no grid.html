@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pratica grid</title>
+    <style>
+        div.container{
+            display: grid;
+            max-width: 1000px;
+            height: 500px;
+            gap: 10px;
+            border: 3px dashed  cyan;
+
+            /*
+            grid-template-rows: 100px 100px 100px; 
+             mexe na altura da linha selecionada  { 200px na segunda fileira} */
+            /*
+            grid-template é a shothand de grid template rows e columns
+            sendo colocando primeiro o rows e depos o columns
+            */
+            /*
+            grid-template-columns: auto auto auto; 
+             mexe na largura da coluna selecionada { 200px na ultima coluna} */
+            
+
+            grid-template: auto auto auto / 100px 100px 100px;
+
+            /*
+            align-items: stretch;
+            justify-items: center;
+            place-items é shorthand de align e justify items
+            semple o align sendo o primeiro e justify o segundo
+            */
+            */
+            place-items: stretch center;
+
+            /*
+            align-content: start;
+            justify-content: end;
+            place-content è a shothand de align e justify items
+            semple o align sendo o primeiro e justify o segundo
+            */
+            place-content: start end;
+        }
+
+        div.item{
+            background-color: crimson;
+            border: 3px solid lime;
+            text-align: center;
+            padding-top: 10px;          
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>        
+    </div>
+</body>
+</html>
