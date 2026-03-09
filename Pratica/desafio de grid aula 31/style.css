@@ -1,0 +1,37 @@
+
+.grid{
+    display: grid;
+    grid-template :repeat(10fr) / repeat(10, 1fr);
+
+    background-color: blue;
+}
+
+.box01{
+
+    background-color: darkseagreen;
+
+}
+
+.box02{
+
+    background-color: hsl(120, 25%, 55%);
+
+}
+
+.box03{
+
+    background-color: hsl(120, 25%, 45%);
+
+}
+
+.box04{
+
+    background-color: hsl(120, 25%, 35%);
+
+}
+
+.box05{
+
+    background-color: hsl(120, 25%, 25%);
+
+}
