@@ -1,0 +1,45 @@
+
+.grid{
+    display: grid;
+    gap:5px;
+    grid-template-rows: 0.4fr 0.2fr 1.6fr 0.2fr;
+    grid-template-columns: 3fr 1fr;
+    background-color: blue;
+    height: 90vh;
+    margin: auto;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.box01{
+    grid-area:1 / 1 / 2 / -1 ;
+    background-color: darkseagreen;
+    grid-area: 1 / 1 / 2 / span 2;
+
+}
+
+.box02{
+    grid-area:2 / 1 / 3 / -1 ;
+    background-color: hsl(120, 25%, 55%);
+    grid-area: 2 / 1 / 3 / span 2;
+
+}
+
+.box03{
+    grid-area: 3 / 1 / -2 / -2;
+    background-color: hsl(120, 25%, 45%);
+
+}
+
+.box04{
+    grid-area:3 / -2 / -2 / -1 ;
+    background-color: hsl(120, 25%, 35%);
+
+}
+
+.box05{
+    grid-area:-2 / 1 / -1 / -1 ;
+    background-color: hsl(120, 25%, 25%);
+    grid-area: -2 / 1 / -1 / span 2;
+
+}
