@@ -2,5 +2,31 @@
 .container{
     display: grid;
     grid-template-rows: 80px 40px 200px 40px;
-    grid-template-columns: 200px 1500px;
+    grid-template-columns: 200px 120px;
+    gap: 1px; ;
+}
+
+.caixa-top{
+    background-color: hsl(51, 100%, 50%);
+    grid-area: 1 / 1 / 2 / -1;
+}
+
+.caixa-menu{
+    background-color: hsl(51, 100%, 40%);
+    grid-area: 2 / 1 / 3 / -1;
+}
+
+.caixa-main{
+    background-color: hsl(51, 100%, 30%);
+    grid-area: 3 / 1 / -2 / -2;
+}
+
+.caixa-sidebar{
+    background-color: hsl(51, 100%, 20%);
+    grid-area: 3 / -2 / -2 / -1;
+}
+
+.caixa-footer{
+    background-color: hsl(51, 100%, 10%);
+    grid-area: -2 / 1 / -1 / -1;
 }
