@@ -1,9 +1,17 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
+    width: 100vw;
+    height: 100vh;
     display: grid;
-    grid-template-rows: 80px 40px 200px 40px;
-    grid-template-columns: 200px 120px;
-    gap: 1px; ;
+    grid-template-rows: 80px 40px 1fr 40px;
+    grid-template-columns: 1fr 150px;
+    gap: 3px;
+    text-align: center;
+    margin: auto;
 }
 
 .caixa-top{
